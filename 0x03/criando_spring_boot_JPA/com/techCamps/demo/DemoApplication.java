@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping(value = "/api-demo-jpa")
 public class DemoApplication {
-    @GetMapping("/h2-console/")
-    public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class, args);
-    }
+	@GetMapping("/h2-console/")
+	public static void main(String[] args) {
+		SpringApplication.run(DemoApplication.class, args);
+	}
 }
 
